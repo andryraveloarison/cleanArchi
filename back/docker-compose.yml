@@ -1,0 +1,11 @@
+
+services:
+  postgres:
+    image: postgres:12
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=chat-rust
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=postgres
+

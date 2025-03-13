@@ -1,0 +1,16 @@
+Documentation
+
+cargo init
+manamboatra docker compose
+mampiditra dependance
+dotenv
+
+Mi creer migration
+diesel setup > /dev/null 2>&1 
+diesel migration generate create_user > /dev/null 2>&1
+
+
+Manoratra ao amin'ny up
+=> diesel migration run
+
+
